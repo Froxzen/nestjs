@@ -31,5 +31,7 @@ export class UsersController {
     delete(@Param('id', ParseIntPipe) id: number) {
         return this.usersService.delete(id);
     }
+
+    
 }
 // https://github.com/season179/enss-stack-starter
